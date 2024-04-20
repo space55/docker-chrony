@@ -6,7 +6,7 @@ EXPOSE 123
 
 WORKDIR /workdir
 
-RUN apk add alpine-sdk pps-tools
+RUN apk add alpine-sdk pps-tools gpsd
 
 RUN wget https://chrony-project.org/releases/chrony-${CHRONY_VERSION}.tar.gz
 
